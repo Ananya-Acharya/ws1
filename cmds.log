@@ -1,0 +1,23 @@
+    1  history
+    2  ls
+    3  $ wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    4  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    5  touch test.txt
+    6  git init 
+    7  git add test.txt
+    8  git commit -m "first commit"
+    9  git remote add origin https://github.com/Ananya-Acharya/ws1.git
+   10  git push -u origin master
+   11  git status
+   12  ls
+   13  git add test.txt
+   14  git status
+   15  vi test.txt
+   16  ls
+   17  ls -a
+   18  git add test.txt
+   19  git status
+   20  git commit -m "my first commit"
+   21  git remote add origin https://github.com/Ananya-Acharya/ws1.git
+   22  git push -u origin master
+   23  history > cmds.log
